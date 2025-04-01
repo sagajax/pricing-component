@@ -52,11 +52,14 @@ const RecapSection = () => {
 
             {/* Image Column */}
             <div className="flex-1 lg:max-w-sm">
-              <div className="aspect-square sm:aspect-[4/3] lg:aspect-auto lg:h-full rounded-lg overflow-hidden bg-gray-100">
+              <div className="aspect-square sm:aspect-[4/3] lg:aspect-auto lg:h-full rounded-lg overflow-hidden">
                 <img
-                  src="https://img.freepik.com/free-vector/financial-insurance-guarantees-protection-your-money-gold_1150-52744.jpg?w=740&t=st=1710864925~exp=1710865525~hmac=b9febffe66b32f62fedb570de947a78dcd3302abc502ad95a1abeebe00fa0ba5"
-                  alt="Illustration"
-                  className="w-full h-full object-cover"
+                  src="https://img.freepik.com/free-vector/financial-insurance-guarantees-protection-your-money-gold_1150-52744.jpg" 
+                  alt=""
+                  style={{
+                    width: '100%',
+                    mixBlendMode: 'multiply',
+                  }}
                 />
               </div>
             </div>
